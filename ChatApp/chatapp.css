@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  width: 100%;
+  height: 6vh;
+  background-color: rgb(53, 114, 163);
+  display: flex;
+  color: #fff;
+  align-items: center;
+}
+.navbar ul li {
+  list-style-type: none;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.profileinfo {
+  display: flex;
+  /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+  border-bottom: 1px solid rgb(65, 59, 59);
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin: 5px;
+  cursor: pointer;
+}
+.profileinfo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-left: 20px;
+}
+.profileinfo p {
+  margin-right: 20px;
+  margin-top: -15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-div {
+  width: 100%;
+}
+.flex {
+  display: flex;
+}
+.inboxtop {
+  width: 100%;
+  flex-basis: 75%;
+  /* border: 1px solid black; */
+  box-shadow: rgba(81, 81, 88, 0.2) 0px 7px 29px 0px;
+}
+.top-inbox {
+  display: flex;
+  margin-bottom: 10px;
+}
+.top-inbox img {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-right: 30px;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+.top-inbox p {
+  margin-top: 10px;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.chatdiv {
+  width: 100%;
+  flex-basis: 25%;
+}
+.background-inbox img {
+  width: 100%;
+  height: 74vh;
+}
+.input-div {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+.input-div input {
+  flex-basis: 80%;
+  margin-left: 50px;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+.background-inbox {
+  background-image: url(./i7.jpg);
+  width: 100%;
+  height: 74vh;
+  background-position: center;
+}
+.inbox-chat {
+  width: fit-content;
+  background: white;
+  color: #000;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 50px;
+  right: 90px;
+}
+
+@media (max-width: 500px) {
+  .chat-p {
+    display: none;
+  }
+}
